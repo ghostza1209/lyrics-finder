@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {Consumer} from '../../context'
 import Spinner from '../layout/Spinner'
 import Track from '../tracks/Track'
-
  class Tracks extends Component {
   render() {
     return (
