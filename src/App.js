@@ -5,6 +5,10 @@ import Index from './components/layout/Index'
 import Lyrics from './components/tracks/Lyrics'
 import {Provider} from './context'
 
+import createHashHistory from 'history/createHashHistory'
+
+const hashHistory = createHashHistory({basename:process.env.PUBLIC_URL})
+
 
 
 import './App.css';
@@ -14,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <Provider>
-      <Router>
+      <Router history={hashHistory}>
       <React.Fragment>
           <Navbar/>
             <div className="container">
