@@ -2,6 +2,7 @@
   "name": "lyric-finder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ghostza1209.github.io/lyrics-finder/",
   "dependencies": {
     "axios": "^0.18.0",
     "moment": "^2.22.2",
